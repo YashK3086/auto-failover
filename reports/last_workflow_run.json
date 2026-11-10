@@ -1,0 +1,10 @@
+{
+  "runId": "RUN-004",
+  "workflow": "Manual Emergency Failover",
+  "title": "Manual Emergency Failover (AWS (AWC63551) \u2794 Azure (LQB72917))",
+  "state": "success",
+  "elapsedS": 61.33,
+  "activeStepIdx": -1,
+  "summary": "Azure (LQB72917) is now real PRIMARY (Read-Write) and AWS (AWC63551) is Read-Only Replica! Measured Switchover RTO: 11.71s.",
+  "error": null
+}

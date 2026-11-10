@@ -1,0 +1,17 @@
+# ==========================================
+# TERRAFORM VARIABLES TEMPLATE (EXAMPLE)
+# ==========================================
+# Non-secret values only. Credentials are loaded from ../.env into the
+# process environment by `scripts/Load-Env.ps1`:
+#   AWS_*  -> AWS provider,  AZURE_* -> ARM_* (azurerm),
+#   SNOWFLAKE_USER / SNOWFLAKE_PASSWORD -> TF_VAR_snowflake_user / TF_VAR_snowflake_password
+
+environment    = "drdemo"
+aws_region     = "us-east-1"
+azure_location = "East US"
+
+snowflake_primary_account   = "MYORG-AWS_PRIMARY"
+snowflake_secondary_account = "MYORG-AZURE_SECONDARY"
+snowflake_role              = "ACCOUNTADMIN"
+
+snowflake_monthly_credit_quota = 10
